@@ -1,7 +1,8 @@
-.carousel-item img {
-    Height: 500px;
+body {
+    font-family: 'Poppins', sans-serif;
 }
 
-.course-item-height {
-    Height: 180px;
+.carousel-item img {
+    Height: 480px;
+    filter: brightness(80%);
 }
