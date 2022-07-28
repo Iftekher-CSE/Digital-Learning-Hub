@@ -3,6 +3,6 @@ body {
 }
 
 .carousel-item img {
-    Height: 480px;
+    Height: 520px;
     filter: brightness(80%);
 }
