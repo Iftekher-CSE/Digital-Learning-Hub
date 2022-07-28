@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <Header class="container mb-5">
+    <Header id="home" class="container mb-5">
         <!-- Nav Bar -->
         <nav class="navbar navbar-expand-lg my-4">
             <div class="container-fluid">
@@ -32,10 +32,10 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Courses</a>
+                            <a class="nav-link active" aria-current="page" href="#course">Courses</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Deals</a>
@@ -44,10 +44,10 @@
                             <a class="nav-link active" aria-current="page" href="#">Success</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">About</a>
+                            <a class="nav-link active" aria-current="page" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Register</a>
+                            <a class="nav-link active" aria-current="page" href="#register">Register</a>
                         </li>
                     </ul>
                     <form class="d-flex">
@@ -57,11 +57,12 @@
             </div>
         </nav>
         <!-- slider Section -->
-        <div id="carouselExampleCaptions" class="carousel slide  mb-5" data-bs-ride="false">
-            <div class="carousel-inner">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-inner rounded-2">
                 <div class="carousel-item active">
-                    <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
+                    <img src="images/cover/cover-1.png" class="d-block w-100 img-fluid
+                    " alt="...">
+                    <div class="carousel-caption">
                         <h1>Get Started Digital Learning</h1>
                         <p>It is a long established fact that a reader will be distracted by the readable content of a
                             page when looking at its layout.</p>
@@ -69,8 +70,9 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="images/cover/cover-2.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
+                    <img src="images/cover/cover-2.jpg" class="d-block w-100 img-fluid
+                    " alt="...">
+                    <div class="carousel-caption">
                         <h1>Get Started Digital Learning</h1>
                         <p>It is a long established fact that a reader will be distracted by the readable content of a
                             page when looking at its layout.</p>
@@ -78,8 +80,9 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
+                    <img src="images/cover/cover-3.jpg" class="d-block w-100 img-fluid
+                    " alt="...">
+                    <div class="carousel-caption">
                         <h1>Get Started Digital Learning</h1>
                         <p>It is a long established fact that a reader will be distracted by the readable content of a
                             page when looking at its layout.</p>
@@ -101,7 +104,7 @@
     </Header>
     <main>
         <!-- Course Section -->
-        <section class="container my-5">
+        <section id="course" class="container my-5">
             <!-- course Head section -->
             <div class="d-flex justify-content-center my-4">
                 <div class="d-flex flex-column align-items-center w-50">
@@ -217,7 +220,7 @@
             </div>
         </section>
         <!-- Ready to join Section for 'lg' only-->
-        <section class="container d-lg-block d-md-none d-sm-none d-none my-5">
+        <section id="register" class="container d-lg-block d-md-none d-sm-none d-none my-5">
             <div class="card baoder border-0 my-5">
                 <div style="height: 250px;" class="card-body bg-primary d-flex align-items-center p-5  rounded-3">
                     <div class="text-light">
@@ -263,7 +266,7 @@
             </div>
         </section>
         <!-- FAQ Section -->
-        <section class="container w-50 my-5">
+        <section id="about" class="container w-50 my-5">
             <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingOne">

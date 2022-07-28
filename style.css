@@ -3,6 +3,7 @@ body {
 }
 
 .carousel-item img {
-    Height: 520px;
-    filter: brightness(80%);
+    /* Height: 35rem; */
+    filter: brightness(70%);
+    position: relative;
 }
